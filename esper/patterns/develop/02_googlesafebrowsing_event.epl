@@ -1,0 +1,6 @@
+create map schema googlesafebrowsing(
+target string,
+field string,
+source string,
+results googlesafebrowsing_result
+)

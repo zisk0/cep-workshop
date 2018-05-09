@@ -1,0 +1,353 @@
+@media (max-width: 768px) {
+
+    a {
+        color: #123645;
+        text-decoration: none;
+    }
+
+    .text-info {
+        color: #123645;
+    }
+
+    .cabecera-uca {
+        border-bottom: 1px solid #E57200;
+    }
+
+    .logo-uca {
+        margin: 5px 0px;
+    }
+    .logo-campus {
+        background-color: #E57200;
+        color: #ffffff;
+        padding: 2px 0px;
+    }
+    .menuppal-movil {
+        background-color: #FFFFFF;
+        margin-bottom: 0px;
+        border: 0px;
+        /*.navbar-default .navbar-nav > li {
+                   border-bottom:2px dotted #035175;
+          }*/
+    }
+
+    .navbar-toggle {
+        background-color: #123645;
+    }
+
+    .menuppal-movil .logo-uca-movil {
+        width: 55%;
+        height: auto;
+        margin-left: 10px;
+    }
+    .pie-portal {
+        background-color: #b0aeae;
+        border-top: 6px solid #78797c;
+        padding-bottom: 10px;
+        width:100%;
+    }
+
+    .logo-uca-footer2 {
+        margin-top:0px;
+    }
+
+
+    .menu-footer2 {
+        position: relative;
+        top: 15px;
+        right: 6%;
+        text-align: left;
+    }
+    .menu-footer2 .copyright {
+        font-size: 0.8em;
+    }
+    .menu-footer2 a, .menu-footer2 li{
+        font-size: 0.9em;
+        color: #525254;
+    }
+    .telefono-campus a {
+        text-decoration: underline;
+    }
+    .pie-portal {
+        height: 145px;
+        overflow: hidden;
+    }
+    .telefono-campus {
+        font-size: 0.9em;
+    }
+    .contenido-portal {
+        padding: 0px 10px;
+    }
+    .dimensioncuerpo {
+        overflow: hidden;
+        padding:0px;
+    }
+    .menuppal-movil {
+        display:block!important;
+    }
+    .cabecera-uca, .cabecera-ucatablet, .idiomastablet {
+        display:none!important;
+    }
+
+   #languagebar {
+     padding:15px 10px;
+   }
+   
+   #portalmenu .ui-tabs-nav li a {
+    border-radius: 6px;
+    padding: 1em !important;
+    width: 100% !important;
+   }
+   
+   p, ul {
+    clear: both;
+   }
+
+   #portalmenu .ui-tabs-nav li {
+    clear: both;
+    display: inline;
+    float: left;
+    width: 100% !important;
+   }
+
+
+    .logo-campus {
+        background-color: #e57200;
+        color: #ffffff;
+        height: 28px;
+        padding: 0 10px;
+    }
+
+    .breadcrumb-campus {
+        padding: 5px 15px 0px 15px;
+        background-color: #e8e5e0;
+        border-radius: 6px;
+        opacity: 0.8;
+        color: #000000;
+        font-size: 8pt;
+        position: relative;
+        top:4px;
+        height:20px;
+        border:1px solid #ccc;
+    }
+
+    .enrutaje {
+        padding:0px!important;
+        margin:0px!important;
+    }
+
+    .breadcrumb-campus li{
+        position:relative;
+        top:-4px;
+    }
+
+    .breadcrumb-campus:hover {
+        background-color: #ffffff;
+        opacity: 0.95;
+    }
+
+    .pieuca {
+        margin-top:20px;
+        clear:both;
+        float:left;
+        background: #78797c;
+        font-size:1em;
+        -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0, 0, 0.55);
+        -moz-box-shadow:    0px 0px 9px 0px rgba(0, 0, 0, 0.55);
+        box-shadow:         0px 0px 9px 0px rgba(0, 0, 0, 0.55);
+    }
+
+    .pieuca a {
+        font-size:1em;
+        color: #525254;
+        text-decoration: none;
+    }
+
+    .pieuca a:hover {
+        color: #525254;
+        text-decoration: underline;
+    }
+
+    .copyright {
+        background: none repeat scroll 0 0 #78797c;
+        color: #ffffff;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+        /*-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0, 0, 0.55);
+        -moz-box-shadow:    0px 0px 9px 0px rgba(0, 0, 0, 0.55);
+        box-shadow:         0px 0px 9px 0px rgba(0, 0, 0, 0.55);*/
+    }
+
+    .avisolegal {
+        padding-top:0px;
+        position: relative;
+        top:20px;
+        left:-35px;
+    }
+
+    .avisolegal li a {
+        font-size:11pt;
+        color: #ffffff!important;
+    }
+
+
+    .social2 {
+        font-size:24pt!important;
+        -webkit-transform:scale(0.6);
+        /* Browser Variations: */
+        padding:0px!important;
+        -moz-transform:scale(0.6);
+        -o-transform:scale(0.6);
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+    }
+
+    .social2:hover {
+        color: #333;
+    }
+
+    .logoucapie {
+        position:relative;
+        top:0px;
+        left:0px;
+        padding-bottom: 0px;
+    }
+
+    .logoucapie p {
+        color: #ffffff;
+        position:relative;
+        top:15px;
+    }
+
+    .logoucapie img {
+        position:relative;
+        top:15px;
+        left:25px;
+        padding-top:5px;
+        width:75%!important;
+    }
+
+    .linksfooter {
+        font-size: 0.9em;
+    }
+
+
+    .linksfooter .infocontacto {
+        margin-top:0px;
+        color: #ffffff;
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: right;
+    }
+
+    .linksfooter .contactocampusvirtual {
+        position:relative;
+        top:0px;
+        padding-left: 15px;
+    }
+
+    .linksfooter .contactocampusvirtual h3  {
+        font-family: "Lato",sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+        border-bottom: 1px dashed #78797c;
+    }
+
+    .linksfooter address {
+        padding-left:20px;
+        line-height: 23px;
+        font-weight: 300;
+    }
+
+    .linksfooter address .fa {
+        font-size: 13pt;
+        padding-right: 5px;
+        position: relative;
+        top:2px;
+    }
+
+    .linksfooter address .fa-phone {
+        padding-right: 11px;
+
+    }
+
+    .linksfooter address .fa-envelope {
+        padding-right: 7px;
+
+    }
+
+
+    .linksfooter .emailcau {
+        position: relative;
+        top:10px;
+        padding-top:10px;
+    }
+
+    .horario
+    {
+        margin: 0 0 30px;
+        padding: 0 0 10px;
+    }
+
+
+    .linksfooter .footerredes h3  {
+        font-family: "Lato",sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        text-transform: uppercase;
+        position: relative;
+        top:0px;
+    }
+
+
+    .linksfooter .footerredes {
+        position:relative;
+        top:0px;
+    }
+
+    .avisolegal a{
+        color: #333 !important;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "Lato",sans-serif;
+    }
+
+    .textcopyright {
+        margin-top:15px;
+        font-size: 9pt;
+        color: #ffffff;
+    }
+
+
+    .accesibilidad , .mapaweb {
+        display:none!important;
+    }
+
+
+
+    .alert-cookies {
+        display:none;
+        background-color: #efefef;
+        -webkit-box-shadow: 0px -3px 4px 1px rgba(50, 50, 50, 0.67);
+        -moz-box-shadow:    0px -3px 4px 1px rgba(50, 50, 50, 0.67);
+        box-shadow:         0px -3px 4px 1px rgba(50, 50, 50, 0.67);
+        border:none;
+        border-radius: 0px;
+        margin-bottom: 0px;
+        font-color: #6a6a6a!important;
+    }
+
+    .contenido-cookies p {
+        padding: 5px 15px;
+        margin: 0px !important;
+    }
+
+    .contenido-cookies h4 {
+        width: 100%;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,2 @@
+10.5.0.1 - - [09/May/2018:11:01:02 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+10.5.0.1 - - [09/May/2018:11:01:03 +0000] "GET /simplesaml/resources/ucabootstraptheme/favicon.ico HTTP/1.1" 200 1150 "http://10.5.0.2/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"

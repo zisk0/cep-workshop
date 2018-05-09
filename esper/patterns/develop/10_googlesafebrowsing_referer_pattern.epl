@@ -1,0 +1,12 @@
+@Name("googlesafebrowsing_positive")
+@Description("Google SafeBrowsing event that creates an alert")
+@Priority(10)
+
+insert into googlesafebrowsing_positive
+select gsb.target as offender,
+gsb.field as field,
+"referer" as type,
+gsb.source as source,
+gsb.results as results
+
+from pattern [every req=request -> gsb=googlesafebrowsing(target=req.source_request.referer and field='referer' and results.positive=True)]

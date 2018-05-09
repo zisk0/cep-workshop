@@ -1,0 +1,232 @@
+{
+  "pfc" : {
+    "order" : 0,
+    "template" : "pfc-*",
+    "mappings" : {
+      "log" : {
+        "properties" : {
+          "referer" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "request" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "agent" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "offset" : {
+            "type" : "long"
+          },
+          "auth" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "ident" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "input_type" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "verb" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "source" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "message" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "type" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "tags" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "@timestamp" : {
+            "type" : "date"
+          },
+          "bytes" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "response" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "clientip" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "shipperip" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "@version" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "beat" : {
+            "properties" : {
+              "hostname" : {
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "ignore_above" : 256,
+                    "type" : "keyword"
+                  }
+                }
+              },
+              "name" : {
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "ignore_above" : 256,
+                    "type" : "keyword"
+                  }
+                }
+              },
+              "version" : {
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "ignore_above" : 256,
+                    "type" : "keyword"
+                  }
+                }
+              }
+            }
+          },
+          "host" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "client" : {
+            "index" : "not_analyzed",
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "httpversion" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "timestamp" : {
+            "type" : "date"
+          }
+        }
+      }
+    }
+  }
+}

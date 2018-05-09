@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Universidad de Cádiz">
+        <meta name="author" content="Universidad de Cádiz">
+        <meta name="robots" content="noindex, nofollow" />
+
+
+        <title>Indique su nombre de usuario y clave de acceso</title>
+
+        <link rel="icon" type="image/icon" href="simplesaml/resources/ucabootstraptheme/favicon.ico" />
+        
+        <link rel="stylesheet" type="text/css" href="simplesaml/resources/ucabootstraptheme/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="simplesaml/resources/ucabootstraptheme/css/ucastylebootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="simplesaml/resources/ucabootstraptheme/font-awesome/font-awesome.min.css">
+    </head>
+            <body onload="SimpleSAML_focus('username');">
+   <header>
+
+    <!-- Menu móvil -->
+    <nav class="navbar navbar-default menuppal-movil visible-xs">
+        <div class="navbar-header">
+            <a href="http://www.uca.es" target="Universidad de Cádiz">
+                <img alt="Universidad de Cádiz" class="img-responsive logo-uca-movil pull-left" src="simplesaml/resources/ucabootstraptheme/img/logoEmpresa.png" />
+            </a>
+        </div>
+    </nav>
+    <!-- Fin menu móviles -->
+
+    <!-- Cabecera PC --> 
+        <div class="cabecera-uca visible-lg visible-md hidden-sm hidden-xs">
+            <div class="container">
+            <div class="col-md-12">
+                <div class="col-md-6 logo-uca pull-left">
+                    <a href="http://www.uca.es" title="Universidad de Cádiz">
+                        <img alt="Universidad de Cádiz" class="img-responsive" src="simplesaml/resources/ucabootstraptheme/img/logoEmpresa.gif" />
+                    </a>
+                </div>
+                <div class="col-md-3 menu-auxiliar" >
+
+                    <ul id="auxiliar" class="list-unstyled">
+                        <li class="inactivo">
+                            <i class="fa fa-chevron-right"></i> <a href="http://www.uca.es/es/estudiantes">Estudiantes</a>
+                        </li>
+                        <li class="inactivo">
+                            <i class="fa fa-chevron-right"></i> <a href="http://www.uca.es/es/profesorado">Profesorado</a>
+                        </li>
+                        <li class="inactivo">
+                            <i class="fa fa-chevron-right"></i> <a href="http://www.uca.es/es/administracion-y-servicios">Administración y servicios</a>
+                        </li>
+                        <li class="inactivo">
+                            <i class="fa fa-chevron-right"></i> <a href="http://www.uca.es/es/visitantes-y-empresas">Visitantes y empresas</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 menu-utilidades" >
+
+                    <ul id="utilidades" class="list-unstyled">
+                        <li>
+                            <a title="Inicio"  href="http://www.uca.es">Inicio</a>
+                        </li>
+                        <li>
+                            <a title="Accesibilidad" href="http://www.uca.es/es/accesibilidad">Accesibilidad</a>
+                        </li>
+                        <li>
+                            <a title="Mapa web" href="http://www.uca.es/es/mapa-web">Mapa web</a>
+                        </li>
+                        <li>
+                            <a title="Contacto"  href="http://www.uca.es/es/contacto">Contacto</a>
+                        </li>
+                        <li id="imprimirpag"><a id="barraUtilidadesImprimir" href="javascript:imprimir();">Imprimir</a></li>
+                        <li>
+                            <a title="Directorio" href="http://www.uca.es/es/directorio">Directorio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 menu-utilidades" >
+                </div>
+
+                  
+        </div>
+            </div>
+
+        </div>
+    <!-- Fin Cabecera PC -->
+
+    <!--Menu navegacion tablet -->
+
+    <!--Menu tablets -->
+    <nav class="cabecera-ucatablet visible-sm navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img alt="Universidad de Cádiz" class="img-responsive logo-uca-movil pull-left" src="simplesaml/resources/ucabootstraptheme/img/logoUCA.png" />
+        </div>
+        <div class="col-sm-12 menuauxiliarcampus">
+            <div class="col-sm-6">
+                <ul class="list-unstyled list-inline">
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul class="list-unstyled list-inline pull-right">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin menu tablets-->
+
+    <!-- Menu ppal PC -->
+  <div class="col-md-12 menunavegacion">
+    <div class="container hidden-sm hidden-xs">
+
+            <div class="col-md-9">
+                <ul class="list-unstyled list-inline">
+                    <li class="pmcon primero">
+                        <a href="http://www.uca.es/es/nuestra-universidad">Nuestra Universidad</a>
+                    </li>
+                    <li class="pmcon">
+                        <a href="http://www.uca.es/es/estudios-y-acceso">Estudios y acceso</a>
+                    </li>
+                    <li class="pmcon">
+                        <a href="http://www.uca.es/es/investigacion">Investigación</a>
+                    </li>
+                    <li class="pmcon ultimo">
+                        <a href="http://www.uca.es/es/internacional">Internacional</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+    </div>
+ </div>
+
+    <!-- Menu ppal PC de Campus Virtual -->
+
+    <div class="logo-campus cabecera-campusvirtual">
+        <div class="col-md-12 enrutaje visible-xs">
+            <div class="breadcrumb-campus">
+                <ul class="list-unstyled list-inline">
+                    <li><a href="#">Sistema de autenticación</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container hidden-xs">
+            <div class="col-md-12 enrutaje col-sm-12">
+                <div class="breadcrumb-campus">
+                    <ul class="list-unstyled list-inline">
+                        <li>Estás en:</li>
+                        <li><a href="#">Sistema de autenticación</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="hidden-sm hidden-xs container-cabecera-campusvirtual">
+       <div class="col-md-12 cabecera-campusvirtual">
+               <div class="container">
+            <h4 class="nombre-portal">
+
+            </h4>
+        </div>
+    </div>
+    </div>
+    -->
+    <!-- Visible Tablets -->
+    <!--
+    <div class="dimensioncuerpo2 visible-sm">
+        <div class="col-lg-12 col-md-12 cabecera-campus">
+         <h4 class="nombre-portal">
+               Sistema de autenticación      </h4>
+        </div>
+    </div>
+    -->
+    <!-- Fin Tablets  -->
+   </header>
+
+   <!-- Fin Menu ppal PC -->
+   <section>
+    <!--cuerpo de la web-->
+    <div class="wrapper dimensioncuerpo contenido-portal  col-md-12">
+        <div class="container">
+
+    
+    
+<div class="row contenidologin contenidotablet">
+    <div class="col-md-4 hidden-xs hidden-sm imagen">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#" class="thumbnail">
+                    <img src="simplesaml/resources/ucabootstraptheme/img/accesouca.png" class="img-responsive" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8 contenidologin">
+        <div class="col-md-12">
+        <div class="page-header">
+            <h2>
+                <span class="decoration"></span>
+                <span class="decoration"></span>
+                <span class="title">Acceso privado</span>
+            </h2>
+        </div>
+        <p class="text-info">Indique su identificador y clave única de acceso a servicios (Campus virtual, servicios de personal, CAU...).</p>
+
+
+        <form action="?" method="post" name="f" class="form-horizontal" role="form">
+            
+
+            <div class="form-group">
+                <label for="username" class="col-sm-4 control-label">Nombre de usuario:</label>                    <div class="col-sm-5">
+                        <input type="text" id="username" placeholder="Nombre de usuario" tabindex="1" class="form-control input-sm" name="username" value="" />                    </div>
+                            </div>
+
+            <div class="form-group">
+                <label for="password" class="col-sm-4 control-label">Clave de acceso:</label>                <div class="col-sm-5">
+                    <input id="password" type="password" placeholder="Clave de acceso" tabindex="2" class="form-control input-sm"  name="password" />
+                </div>
+            </div>
+            <div class="col-md-12 form-group text-center">
+                <ul class="list-unstyled list-inline">
+                    <li><input type="submit" class="btn btn-sm btn-primary" tabindex="4" value="Acceder" ></li>
+                    <li><a class="btn btn-sm btn-default" href="http://www.uca.es">Cancelar</a></li>
+                </ul>
+            </div>
+
+
+            
+            <input type="hidden" name="AuthState" value="_3a99e311e7b02c2d067e611b6aa158689d9cd149ff:https://idp.uca.essimplesaml/saml2/idp/SSOService.php?spentityid=https%3A%2F%2Fcampusvirtual.uca.es%2Fsimplesaml%2Fmodule.php%2Fsaml%2Fsp%2Fmetadata.php%2Fsaml&amp;cookieTime=1507998063&amp;RelayState=https%3A%2F%2Fcampusvirtual.uca.es%2Fintranet%2Fsaml" />
+        </form>
+        </div>
+        <div class="col-md-6 col-sm-6 col-sm-offset-2 col-md-offset-2">
+            <button href="" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target=".bs-example-modal-lg">¿Problemas con la clave de acceso?</button>
+        </div>
+    </div>
+
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title" id="myModalLabel">¿Problemas con la clave de acceso?</h3>
+                </div>
+                <div class="modal-body">
+                    <p style="font-size: 10pt;"><span class="glyphicon glyphicon-info-sign uca"></span> Si ha perdido u olvidado su clave de acceso a los servicios de la Universidad de Cádiz tiene los siguientes mecanismos de recuperación:</p>
+                    <p style="font-size: 10pt;"><ul><li>Si es alumno matriculado en la Universidad de Cádiz puede acceder al sistema de regeneración de contraseñas a través de la dirección web: <a href='https://control.uca.es/cgi-bin/regcon/regenerar_clave.cgi'>https://control.uca.es/cgi-bin/regcon/regenerar_clave.cgi</a></li><li>Si es docente o no dispone de la información de su matricula puede usar la utilidad que permite restablecer la contraseña personal del usuario, mediante el uso de un certificado digital de la FNMT o mediante el certificado del eDNI: <a href='https://control.uca.es/cambioclavecert.html'>https://control.uca.es/cambioclavecert.html</a></li><li>En cualquier caso, puede dirigirse a la Secretaría de su Centro (si es alumno) o con el Servicio de Personal (si es PAS o PDI).</li><li>Si es un usuario inscrito en algún curso de formación no reglada, adicionalmente puede acceder al servicio de regeneración de claves a través de la dirección web: <a href='https://campusvirtual.uca.es/recoverypassword'>https://campusvirtual.uca.es/recoverypassword</a></li></ul><span class='glyphicon glyphicon-info-sign uca'></span> Si desea cambiar su clave de acceso puede hacerlo a través de la dirección web: <a href='https://control.uca.es/cambiarclave'>https://control.uca.es/cambiarclave</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="languagebar" style="clear:both;"><a href="https://idp.uca.essimplesaml/module.php/core/loginuserpass.php?AuthState=_3a99e311e7b02c2d067e611b6aa158689d9cd149ff%3Ahttps%3A%2F%2Fidp.uca.es%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fcampusvirtual.uca.es%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fsaml%26cookieTime%3D1507998063%26RelayState%3Dhttps%253A%252F%252Fcampusvirtual.uca.es%252Fintranet%252Fsaml&amp;language=en">English</a> | Español</div></div>
+</div>
+</section>
+<!-- Inicio del pie
+    <footer class="pieuca">
+    </footer>
+-->
+
+<script type="text/javascript" src="simplesaml/resources/ucabootstraptheme/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="simplesaml/resources/script.js"></script>
+<script type="text/javascript" src="simplesaml/resources/ucabootstraptheme/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* 
+    Document   : ucacv
+    Created on : 19-sep-2013, 15:38:17
+    Author     : Campus Virtual de la Universidad de Cádiz
+    Description:
+        Fichero less con estilos UCA.
+*/
+
+/* CSS de estilos comunes */
+@import "ucastylebootstrapcomunes.css";
+/* CSS para Móviles */
+@import "ucastylebootstrapMobile.css";
+/* CSS para Tablets */
+@import "ucastylebootstrapTablet.css";
+/* CSS para ordenadores */
+@import "ucastylebootstrapPC.css";

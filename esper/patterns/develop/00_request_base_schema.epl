@@ -1,0 +1,13 @@
+// Esper schema for a request event.
+
+create map schema request_schema(
+timestamp long,
+host string,
+clientip string,
+request string,
+proto string,
+verb string,
+response int, 
+agent string,
+referer string
+)

@@ -1,0 +1,5 @@
+create map schema googlesafebrowsing_result(
+positive bool,
+type string
+)
+

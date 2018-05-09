@@ -1,0 +1,74 @@
+body {
+	color: #6a6a6a;
+}
+
+a {
+    outline: none;
+    color: #005a84;
+}
+a:hover {
+    color: #e57200;
+    text-decoration: underline;
+}
+
+.contenido-portal a {
+ color: #005a84!important;
+}
+
+.contenido-portal .btn-primary:hover {
+ background-color: #01678f;
+}
+
+.contenido-portal h3,h2, h4, h5 {
+ font-size:13pt;
+}
+#portalcontent > div:nth-child(2) {
+    margin-bottom: 1em;
+}
+
+.contenido-portal h2, .contenido-portal h1 {
+    font-size: 13pt;
+    padding-bottom:0px;
+}
+
+#languagebar {
+  margin-left:15px;
+}
+
+.logo-uca-movil {
+    margin-left: 10px;
+}
+
+#portalcontent > div:nth-child(2) {
+    margin-bottom: 1em;
+}
+
+.page-header {
+    border-bottom: 2px solid #e57200;
+    margin-top:0;
+    padding:0px!important;
+}
+.uca {
+    font-size: 1.55em;
+    color: #4587A5;
+}
+
+h2 {
+    color: #de6c10;
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2 .decoration {
+    background: #de6c10 none repeat scroll 0 0;
+    margin-left: 5px;
+    padding-left: 1px;
+}
+
+h2 .title {
+    background: #fff none repeat scroll 0 0;
+    padding: 0 15px 0 5px;
+}

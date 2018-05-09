@@ -1,0 +1,4 @@
+create map schema request(
+source string,
+source_request request_schema
+)
